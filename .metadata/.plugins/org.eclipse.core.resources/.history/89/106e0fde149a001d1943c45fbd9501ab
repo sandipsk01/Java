@@ -1,0 +1,11 @@
+package generics;
+
+public class MultipleGenericUse {
+	public static void main(String[] args){
+
+		MultipleGeneric<String, Integer> pSI= new MultipleGeneric<String, Integer>("ab",10);
+		
+		//Chained Generic
+		MultipleGeneric< MultipleGeneric<String, Integer>,String > p= new MultipleGeneric<>();
+	}
+}

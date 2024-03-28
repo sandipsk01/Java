@@ -1,0 +1,20 @@
+package functions;
+
+import java.util.Scanner;
+
+public class MoreOnFunctions {
+	
+	public static int addition(int a,int b) {
+		return a+b;
+	}
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int a = s.nextInt();
+		int b = s.nextInt();
+		int addition=addition(a,b);
+		System.out.println(addition);
+
+	}
+
+}

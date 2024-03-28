@@ -1,0 +1,10 @@
+package fundamentals;
+import java.util.Scanner;
+public class Try {
+	public static void main(String args[]){
+	      int arr[] = new int[5];
+	      arr[1] = 10;
+	      arr = new int[2];
+	      System.out.println(arr[0]);   
+	    }
+}

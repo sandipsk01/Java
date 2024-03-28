@@ -1,0 +1,53 @@
+package Patterns;
+
+import java.util.Scanner;
+import java.lang.Math;
+public class DiamondStars {
+	public static void main(String[]args) {
+		Scanner s= new Scanner(System.in);
+		int n= s.nextInt();
+		int middle= (n/2)+1;
+		int i=1;
+		// Isosceles Triangle
+		while(i<=middle) {
+			int spaces=1;
+			while(spaces<=(middle-i)) {
+				System.out.print(' ');
+				spaces=spaces+1;
+			}
+			
+			int inc=1;
+			while(inc<=i) {
+				System.out.print('*');
+				inc=inc+1;
+			}
+			
+			int dec=i-1;
+			while(dec>=1) {
+				System.out.print('*');
+				dec=dec-1;
+			}
+			System.out.println();
+			i=i+1;
+		}
+		
+		// Inverted Isosceles
+		double dec_stars=middle-Math.round(((double)(i)/2.0))+1;
+		while(i<=n) {
+			int dec_spaces=1;
+			while(dec_spaces<=i-middle) {
+				System.out.print(' ');
+				dec_spaces=dec_spaces+1;
+			}
+
+			while(dec_stars>1) {
+				System.out.print('*');
+				dec_stars=dec_stars-1;
+			}
+			System.out.println();
+			i=i+1;
+		}				
+		
+	}
+
+}

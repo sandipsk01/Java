@@ -1,0 +1,39 @@
+package Patterns;
+import java.util.Scanner;
+public class IsoscelesTriangle3 {
+
+	public static void main(String[] args) {
+		/* Your class should be named Solution.
+	 	* Read input as specified in the question.
+	 	* Print output as specified in the question.
+		*/
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		int i=1;
+		while(i<=n) {
+			int spaces=1;
+			while(spaces<=n-i) {
+				System.out.print(' ');
+				spaces=spaces+1;
+			}
+			
+			int inc=i;
+			int inc_start=i;
+			while(inc<=i) {
+				while(inc_start<=inc) {
+					System.out.print(inc_start);
+					inc_start=inc_start+1;
+				}
+				inc=inc+1;
+			}
+			int dec=inc_start-1;
+			int dec_end=i;
+			while(dec>=dec_end) {
+				System.out.print(dec);
+				dec=dec-1;
+			}
+			System.out.println();
+			i=i+1;
+		}
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;generics.pair.java&apos; to &apos;Pair.java&apos;&#x0D;&#x0A;- Original project: &apos;OOPS&apos;&#x0D;&#x0A;- Original element: &apos;generics.pair.java&apos;&#x0D;&#x0A;- Renamed element: &apos;generics.Pair.java&apos;" description="Rename compilation unit &apos;pair.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;generics{pair.java" name="Pair.java" references="false" stamp="1674362114109" version="1.0"/>
+</session>

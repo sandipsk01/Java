@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class TakingInput {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Your Lucky Number: ");
+		int num = sc.nextInt();
+		
+		System.out.print("Lucky Number is: "+num);
+	}
+
+}

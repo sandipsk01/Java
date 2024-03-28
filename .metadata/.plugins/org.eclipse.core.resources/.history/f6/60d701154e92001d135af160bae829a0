@@ -1,0 +1,21 @@
+package fundamentals;
+import java.util.Scanner;
+public class PalindromeCheck {
+
+	public static String palindromeCheck(String str) {
+		String reversedString="";
+		for(int i=str.length()-1;i>=0;i--) {
+			reversedString+=str.charAt(i);
+		}
+		return reversedString;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s=new Scanner(System.in);
+		String str=s.next();
+		String reversedString=palindromeCheck(str);
+		System.out.println(str==reversedString);
+	}
+
+}
