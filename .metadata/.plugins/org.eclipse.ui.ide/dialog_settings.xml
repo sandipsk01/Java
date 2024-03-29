@@ -8,6 +8,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\CN\Java\Fundamentals"/>
 			<item value="C:\Users\sandi\OneDrive\Desktop\JAVA WITH DSA\src"/>
 			<item value="D:\CN\Java\OOPS\src\Abstract Keyword, Abstract Keyword and Objects, Abstract and Inheritance Chain"/>
 		</list>
